@@ -22,7 +22,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS =0 ;
-    String order = "I want a ",phno="+15628507043";
+    String order = "I want a ",phno="+15628507049";
     int total_price=0;
 
     @Override
