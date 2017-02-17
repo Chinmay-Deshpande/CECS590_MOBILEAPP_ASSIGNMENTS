@@ -22,7 +22,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS =0 ;
-    String order = "I want a ",phno="+15628507049";
+    String order = "I want a ",phno="+15628507043";
     int total_price=0;
 
     @Override
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 fillings();
                 beverages();
                 placeorder();
+
             }
         });
 
@@ -57,22 +58,22 @@ public class MainActivity extends AppCompatActivity {
         if(soda.isChecked())
         {
 
-            order=order+="Soda ";
+            order=order+"Soda ";
             total_price=total_price+2;
         }
         if(cerveza.isChecked())
         {
-            order=order+="Cerveza ";
+            order=order+"Cerveza ";
             total_price=total_price+3;
         }
         if(margarita.isChecked())
         {
-            order=order+="Margarita ";
+            order=order+"Margarita ";
             total_price=total_price+4;
         }
         if(tequila.isChecked())
         {
-            order=order+="Tequila ";
+            order=order+"Tequila ";
             total_price=total_price+5;
         }
         order=order+".";
@@ -94,54 +95,54 @@ public class MainActivity extends AppCompatActivity {
 
         if(beef.isChecked())
         {
-            order=order+="Beef ";
+            order=order+"Beef ";
             total_price=total_price+1;
         }
         if(chicken.isChecked())
         {
-            order=order+="Chicken ";
+            order=order+"Chicken ";
             total_price=total_price+2;
         }
         if(whitefish.isChecked())
         {
-            order=order+="Whitefish ";
+            order=order+"Whitefish ";
             total_price=total_price+3;
         }
         if(cheese.isChecked())
         {
-            order=order+="Cheese ";
+            order=order+"Cheese ";
             total_price=total_price+4;
         }
         if(seafood.isChecked())
         {
-            order=order+="Seafood ";
+            order=order+"Seafood ";
             total_price=total_price+5;
         }
         if(rice.isChecked())
         {
-            order=order+="Rice ";
+            order=order+"Rice ";
             total_price=total_price+1;
 
 
         }
         if(beans.isChecked())
         {
-            order=order+="Beans ";
+            order=order+"Beans ";
             total_price=total_price+2;
         }
         if(pico_de_gallo.isChecked())
         {
             total_price=total_price+3;
-            order=order+="Pico_de_gallo ";
+            order=order+"Pico_de_gallo ";
         }
         if(gaucamolo.isChecked())
         {
-            order=order+="Gaucamolo ";
+            order=order+"Gaucamolo ";
             total_price=total_price+4;
         }
         if(LBT.isChecked())
         {
-            order=order+="LBT ";
+            order=order+"LBT ";
             total_price=total_price+5;
         }
         order=order+".";
