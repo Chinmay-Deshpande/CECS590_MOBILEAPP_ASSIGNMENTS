@@ -1,1 +1,1 @@
-include ':TacoPronto', ':imageapp', ':art_therapy_1'
+include ':TacoPronto', ':imageapp', ':art_therapy_1', ':bluetoothandwifiassignment', ':BTandWF'

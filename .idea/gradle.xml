@@ -9,8 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BTandWF" />
             <option value="$PROJECT_DIR$/TacoPronto" />
             <option value="$PROJECT_DIR$/art_therapy_1" />
+            <option value="$PROJECT_DIR$/bluetoothandwifiassignment" />
             <option value="$PROJECT_DIR$/imageapp" />
           </set>
         </option>

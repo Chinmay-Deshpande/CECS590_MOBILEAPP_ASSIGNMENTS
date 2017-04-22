@@ -1,5 +1,6 @@
 package com.example.chinmaydeshpande.assignment_2;
 
+import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
@@ -69,7 +70,6 @@ public class ListActivity extends AppCompatActivity {
 
 
                 Intent intent= new Intent(ListActivity.this, ViewPhoto_Activity.class);
-
                 intent.putExtra(STR_CALL,image_path);
                 intent.putExtra(STR_CALL1,image_caption);
                 startActivity(intent);
@@ -148,7 +148,7 @@ public class ListActivity extends AppCompatActivity {
 
       if (requestCode == 1) {
 
-          if(resultCode==RESULT_OK) {
+          if(resultCode== Activity.RESULT_OK) {
               switch (requestCode) {
 
 
@@ -181,7 +181,7 @@ public class ListActivity extends AppCompatActivity {
                       break;
               }
           }
-              else if (resultCode == RESULT_CANCELED) {
+              else if (resultCode == Activity.RESULT_CANCELED) {
               }
           onStart();
           }
